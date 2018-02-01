@@ -1,0 +1,53 @@
+--------------------
+HUKUM II NEWTON
+--------------------
+
+STORE "m" to 600
+STORE "a" to 2
+STORE "F" to "m" times "a"
+CALCULATE "F"
+DISPLAY "F"
+
+--------------------
+TAHUN KABISAT
+--------------------
+
+STORE "year" to any number
+
+if "year" divisible by 4
+  if "year" divisible by 100
+    if "year" divisible by 400
+      DISPLAY "Tahun Kabisat"
+    else
+      DISPLAY "Bukan Tahun Kabisat"
+  else
+    DISPLAY "Tahun Kabisat"
+else
+  DISPLAY "Bukan Tahun Kabisat"
+
+--------------------
+LAUNDRY DAY
+--------------------
+
+STORE "clothes" to 20
+WHILE "clothes" >= 0
+  CALCULATE "clothes" minus 1
+
+DO "Mencuci"
+
+--------------------
+PERIKSA KUKU
+--------------------
+
+STORE "students" to 40
+
+WHILE "students" > 0
+  if "students" has long nails
+    DO "Punish"
+  else
+    DO "Praised"
+
+  CALCULATE "students" minus 1
+
+
+  
