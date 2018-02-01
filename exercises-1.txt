@@ -29,9 +29,9 @@ else
 LAUNDRY DAY
 --------------------
 
-STORE "clothes" to 20
-WHILE "clothes" >= 0
-  CALCULATE "clothes" minus 1
+STORE "clothes" to 0
+WHILE "clothes" <20
+  CALCULATE "clothes" plus 1
 
 DO "Mencuci"
 
